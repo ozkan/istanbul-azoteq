@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 
-if SHIELD_ISTANBUL_RIGTH
+if SHIELD_ISTANBUL_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Istanbul"
