@@ -1,7 +1,8 @@
 # Copyright (c) 2025 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_ISTANBUL_LEFT
+
+if SHIELD_ISTANBUL_RIGTH
 
 config ZMK_KEYBOARD_NAME
     default "Istanbul"
@@ -9,7 +10,21 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+    
+
+config IQS5XX
+    bool
+    default y
+
+# enable pointing
+config ZMK_POINTING
+    default y
+
+config INPUT
+    default y
+
 endif
+
 
 if SHIELD_ISTANBUL_LEFT || SHIELD_ISTANBUL_RIGHT
 
